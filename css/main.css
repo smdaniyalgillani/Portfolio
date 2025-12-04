@@ -1525,6 +1525,7 @@ header{
 	margin-bottom: 3.6rem;
 }
 .about-content h3 {
+	text-align: center;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.8rem;
 	text-transform: uppercase;
