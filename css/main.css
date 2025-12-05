@@ -2512,7 +2512,7 @@ footer .copyright span:last-child::after {
 		margin-bottom: 1.5rem;
 	}
 	footer .copyright span {
-		display: block;
+		display: inline-flex;
 	}
 	footer .copyright span::after {
 		display: none;
