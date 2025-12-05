@@ -1083,7 +1083,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 30%;           /* full-width header */
+    width: 25%;           /* full-width header */
     z-index: 600;
     background-color: black;
 }
@@ -1112,7 +1112,9 @@ header .logo a {
     color: white;
     font-family: 'Comic Sans MS';
     line-height: 1.2;
-    height: auto;          /* don’t force 100% */
+    height: auto;          /*don’t force 100%*/
+	position: relative;
+	top: 10px;
 }
 
 /**
