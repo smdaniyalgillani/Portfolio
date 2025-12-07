@@ -1690,6 +1690,8 @@ header .logo a {
 #qualifications .timeline-content {
 	margin-left: 35%;
 	padding-left: 60px;
+	text-align: justify;
+	max-width: 52rem;
 }
 #qualifications .timeline-content h4 {
 	position: relative;
@@ -1723,6 +1725,7 @@ header .logo a {
 	}
 	#qualifications .timeline-content {
 		padding-left: 50px;
+		text-align: justify;
 	}
 }
 @media only screen and (max-width:768px) {
@@ -1747,6 +1750,7 @@ header .logo a {
 	}
 	#qualifications .timeline-content {
 		margin: 0;
+		text-align: justify;
 	}
 	#qualifications .timeline-content h4 {
 		padding-bottom: 0;
