@@ -1085,7 +1085,7 @@ header {
     left: 0;
     width: 25%;           /* full-width header */
     z-index: 600;
-    background-color: black;
+    background-color: transparent;
 }
 /* On smaller screens: full‑width header */
 @media only screen and (max-width: 1024px) {
@@ -1113,8 +1113,8 @@ header .logo a {
     display: inline-block;
     margin: 0;
     border: none;
-    text-shadow: 2px 2px 2px #f98500;
-    color: white;
+    /* text-shadow: 2px 2px 2px #a30b0b; */
+    color: #FF9800;
     font-family: 'Comic Sans MS';
     line-height: 1.2;
     height: auto;          /*don’t force 100%*/
@@ -1228,7 +1228,7 @@ header .logo a {
 
 /* dropdown nav */
 .main-navigation {
-	background: #000000;
+	background: transparent;
 	padding: 24px 30px 42px;
 	margin: 0;
 	width: 100%;
