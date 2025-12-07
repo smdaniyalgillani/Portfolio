@@ -137,27 +137,29 @@
 	/*-----------------------------------------------------*/
   	/* Navigation Menu
    ------------------------------------------------------ */  
-   var toggleButton = $('.menu-toggle'),
-       nav = $('.main-navigation');
-
-   // toggle button
-   toggleButton.on('click', function(e) {
-
+	var toggleButton = $('.menu-toggle'),
+		nav          = $('.main-navigation'),
+		logoToggle   = $('.logo a');
+									
+	// toggle handler
+	toggleButton.on('click', function(e) {
 		e.preventDefault();
 		toggleButton.toggleClass('is-clicked');
 		nav.slideToggle();
-
 	});
 
-   // nav items
-  	nav.find('li a').on("click", function() {   
+	//make logo click act like clicking the toggle button
+	logoToggle.on('click', function(e) {
+		e.preventDefault();
+		toggleButton.click();
+	});
 
-   	// update the toggle button 		
-   	toggleButton.toggleClass('is-clicked'); 
-   	// fadeout the navigation panel
-   	nav.fadeOut();   		
-   	     
-  	});
+	// nav items
+	nav.find('li a').on('click', function() {
+		toggleButton.toggleClass('is-clicked');
+		nav.fadeOut();
+	});
+
 
 
    /*---------------------------------------------------- */
