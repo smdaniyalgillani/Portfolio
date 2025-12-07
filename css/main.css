@@ -1888,6 +1888,111 @@ header .logo a {
 	}
 }
 
+/** 
+ * ===================================================================
+ * 13. achievements - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+#achievements {
+	background: #FFFFFF;
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+#achievements .folio-item {
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+}
+#achievements .folio-item img {
+	vertical-align: middle;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+#achievements .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+#achievements .folio-item-table {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+#achievements .folio-item-cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	position: relative;
+	left: -100%;
+}
+
+#achievements .folio-title {
+	color: #FFFFFF;
+	font-size: 3.3rem;
+	padding: 0 3rem;
+	margin-bottom: 0;
+}
+#achievements .folio-types {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: .1rem;
+	color: rgba(255, 255, 255, 0.6);
+}
+#achievements .folio-item:hover .overlay {
+	background: rgba(0, 0, 0, 0.8);
+}
+#achievements .folio-item:hover .folio-item-cell {
+	left: 0;
+}
+#achievements .folio-item:hover img {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+/**
+ * responsive:
+ * achievements
+ * ------------------------------------------------------------------- 
+ */
+@media only screen and (max-width:1024px) {
+	#achievements .folio-title {
+		font-size: 3.1rem;
+	}
+}
+@media only screen and (max-width:768px) {
+	#achievements .folio-title {
+		font-size: 2.5rem;
+	}
+}
+@media only screen and (max-width:400px) {
+	#achievements .folio-title {
+		font-size: 2.2rem;
+	}
+}
+
 /**
  * Popup Modal - (_layout.scss)
  * ------------------------------------------------------------------
