@@ -1038,7 +1038,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .section-intro h5 {
 	color: #f98500;
-	font-size: 1.6rem;
+	font-family: 'playfair-extra-bold';
+	font-size: 2rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
 	letter-spacing: .4rem;
@@ -1062,7 +1063,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 		font-size: 2.6rem;
 	}
 	.section-intro h5 {
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 		letter-spacing: .3rem;
 	}
 }
@@ -1244,7 +1245,7 @@ header .logo a {
 }
 .main-navigation li a {
 	display: block;
-	color: #FFFFFF;
+	color: #00BCD4;
 	width: auto;
 	padding: 15px 0;
 	line-height: 16px;
