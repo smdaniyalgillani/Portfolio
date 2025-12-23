@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# My Portfolio Website
 
 This repository contains the source code for my personal portfolio website, showcasing my work in mechatronics, robotics, and embedded systems.
 
