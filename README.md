@@ -5,7 +5,7 @@ This repository contains the source code for my personal portfolio website, show
 ## About
 
 - **Name:** Syed Muhammad Daniyal Gillani  
-- **Role:** Mechatronics Engineer
+- **Role:** Mechatronics Engineer 
 - **Focus areas:** Robotics, embedded systems, and automation  
 
 The site includes sections for my profile overview, education and experience, projects, achievements, patents, and research publications.
